@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00972F5B8C63A7D2FCCAAAF6 /* DayNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40966486668B29121BF8809 /* DayNavigationUITests.swift */; };
+		0B4EC0DA69CBC335F5297AF9 /* WidgetPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABB4C8A161921107CA6CD1 /* WidgetPad.swift */; };
+		0DE46C14BB10CD677491E2A2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8FC2BAB053C1E6A046EE6 /* Theme.swift */; };
+		0FA4FC2065240E3A0F6AC199 /* StickyNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB233BD64FD95BE930BF31C /* StickyNotes.swift */; };
+		142A17FCCE13C65ACCF6EDDA /* EditStickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F1F9775A8B59D4678DBDD /* EditStickerUITests.swift */; };
+		185C3D1BB06CBDECC0DAA6BE /* CormorantGaramond-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82E74D8A7F9CAC24C881B251 /* CormorantGaramond-VF.ttf */; };
+		1F38E3132FD93D403DF70860 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21838454A3111F4C8B80F537 /* Poppins-Medium.ttf */; };
+		204981970FD34E0363EEA73A /* Poppins-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D1CD555AF519ACC61A203121 /* Poppins-OFL.txt */; };
+		2635355BB88BA6DFFB72FDC2 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21838454A3111F4C8B80F537 /* Poppins-Medium.ttf */; };
+		273A8EDDE541C8AB1708F9C3 /* RingWire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F22ACD8521429B24E2E86 /* RingWire.swift */; };
+		2A7B609001065E3945C75A1B /* NoteDecorations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B51249DCDC9A21EAB4C21 /* NoteDecorations.swift */; };
+		2F53986E3C06E5DEE9BD251E /* WidgetPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABB4C8A161921107CA6CD1 /* WidgetPad.swift */; };
+		472EC26262F97268D8676C88 /* StickerDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE8C1097ED5EB163119191 /* StickerDrawer.swift */; };
+		482398D9B1630614ED9BBBE1 /* CormorantGaramond-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20DA230340821468AF431E20 /* CormorantGaramond-OFL.txt */; };
+		4DC141254DFD66D6C008D973 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8FC2BAB053C1E6A046EE6 /* Theme.swift */; };
+		5223AE982CDC46F1BF245E81 /* HelloWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B9CE7055300D9CDD7247F149 /* HelloWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A95D7548339AFB3B1C23C0F /* CormorantGaramond-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82E74D8A7F9CAC24C881B251 /* CormorantGaramond-VF.ttf */; };
+		5FC6439EDE1C8195A391CAC0 /* EBGaramond-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5815B233A17375935D914FC9 /* EBGaramond-OFL.txt */; };
+		68A57BF3E9D86DCEBCF6D255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41239D63621309891A7501FD /* Assets.xcassets */; };
+		7E517345B64394401B7191A7 /* Poppins-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D1CD555AF519ACC61A203121 /* Poppins-OFL.txt */; };
+		87681B12E0E17D5A68B5DA96 /* EBGaramond-Italic-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFC4D99F180C2EB9EA5AA161 /* EBGaramond-Italic-VF.ttf */; };
+		94935FB1B96F89ABB735467B /* NotePadWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38279FE7C1596A1373B4DE5 /* NotePadWidget.swift */; };
+		99377DE04B1916939565929E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41239D63621309891A7501FD /* Assets.xcassets */; };
+		B1D1083F780DDE521C8ECF93 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B263B9BBC6A97A93F527C9EC /* Poppins-Regular.ttf */; };
+		BA977129F15138DA2DE68625 /* EBGaramond-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FB910079EA70DEA042A913 /* EBGaramond-VF.ttf */; };
+		BFD71117A5EC3959B22BE173 /* CormorantGaramond-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20DA230340821468AF431E20 /* CormorantGaramond-OFL.txt */; };
+		C5864093743CC0111C6CDD4A /* HelloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA15B19CA0A04AD709B993 /* HelloApp.swift */; };
+		C7F3B2508CE47A102881BE79 /* CalendarOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EC14B01CFA9B57C11F39 /* CalendarOverview.swift */; };
+		CA42B3CE3AC5A7016D317449 /* CormorantGaramond-Italic-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA619BDA05729212391008AA /* CormorantGaramond-Italic-VF.ttf */; };
+		CF345B5E21EB903EF3F3544B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B263B9BBC6A97A93F527C9EC /* Poppins-Regular.ttf */; };
+		DAE69413A3B4A6871770F7CA /* CormorantGaramond-Italic-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA619BDA05729212391008AA /* CormorantGaramond-Italic-VF.ttf */; };
+		DBFADD064A1815AB9EBA415C /* EBGaramond-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5815B233A17375935D914FC9 /* EBGaramond-OFL.txt */; };
+		E594399DB6EC5527C1B1A0D6 /* NoteDecorations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B51249DCDC9A21EAB4C21 /* NoteDecorations.swift */; };
+		F7816DE854B7E81F08E512DD /* EBGaramond-Italic-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFC4D99F180C2EB9EA5AA161 /* EBGaramond-Italic-VF.ttf */; };
+		F815CF587221AC0F3224B2BE /* EBGaramond-VF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FB910079EA70DEA042A913 /* EBGaramond-VF.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8873336D4CB16FB3DB7CF58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240B98E3BF6651EC4F9131A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56ECC41A1C307BF419936DBF;
+			remoteInfo = HelloWidget;
+		};
+		9C30ADF2BD8B3F9F1E907398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240B98E3BF6651EC4F9131A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014531D5B43234D0A4FC8754;
+			remoteInfo = Hello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B27A13A6318844075492A8B4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5223AE982CDC46F1BF245E81 /* HelloWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FEE8C1097ED5EB163119191 /* StickerDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerDrawer.swift; sourceTree = "<group>"; };
+		20DA230340821468AF431E20 /* CormorantGaramond-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CormorantGaramond-OFL.txt"; sourceTree = "<group>"; };
+		21838454A3111F4C8B80F537 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3FBAAAABB83692C1D4368ECC /* HelloWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloWidget.entitlements; sourceTree = "<group>"; };
+		41239D63621309891A7501FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43A1C25FBFA15E258C0E3A45 /* Hello.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hello.entitlements; sourceTree = "<group>"; };
+		4622D531BA288820EC5C7794 /* Hello.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		558F22ACD8521429B24E2E86 /* RingWire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingWire.swift; sourceTree = "<group>"; };
+		55B6EC14B01CFA9B57C11F39 /* CalendarOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarOverview.swift; sourceTree = "<group>"; };
+		5815B233A17375935D914FC9 /* EBGaramond-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "EBGaramond-OFL.txt"; sourceTree = "<group>"; };
+		6EB233BD64FD95BE930BF31C /* StickyNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNotes.swift; sourceTree = "<group>"; };
+		82E74D8A7F9CAC24C881B251 /* CormorantGaramond-VF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CormorantGaramond-VF.ttf"; sourceTree = "<group>"; };
+		87AA15B19CA0A04AD709B993 /* HelloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloApp.swift; sourceTree = "<group>"; };
+		88FB910079EA70DEA042A913 /* EBGaramond-VF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-VF.ttf"; sourceTree = "<group>"; };
+		8991A9262DCD5EAD393CD77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9AB8FC2BAB053C1E6A046EE6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9C2B51249DCDC9A21EAB4C21 /* NoteDecorations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDecorations.swift; sourceTree = "<group>"; };
+		A2ABB4C8A161921107CA6CD1 /* WidgetPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPad.swift; sourceTree = "<group>"; };
+		A40966486668B29121BF8809 /* DayNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNavigationUITests.swift; sourceTree = "<group>"; };
+		AA619BDA05729212391008AA /* CormorantGaramond-Italic-VF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CormorantGaramond-Italic-VF.ttf"; sourceTree = "<group>"; };
+		B263B9BBC6A97A93F527C9EC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		B42178CE70DD4308FB7F2169 /* HelloUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CE7055300D9CDD7247F149 /* HelloWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = HelloWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4F1F9775A8B59D4678DBDD /* EditStickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStickerUITests.swift; sourceTree = "<group>"; };
+		C38279FE7C1596A1373B4DE5 /* NotePadWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePadWidget.swift; sourceTree = "<group>"; };
+		D1CD555AF519ACC61A203121 /* Poppins-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Poppins-OFL.txt"; sourceTree = "<group>"; };
+		FFC4D99F180C2EB9EA5AA161 /* EBGaramond-Italic-VF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-Italic-VF.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		54E4A5E3A9B8B96990A930B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4622D531BA288820EC5C7794 /* Hello.app */,
+				B42178CE70DD4308FB7F2169 /* HelloUITests.xctest */,
+				B9CE7055300D9CDD7247F149 /* HelloWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B353727D40CBF45A7B0E86B /* HelloWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAAAABB83692C1D4368ECC /* HelloWidget.entitlements */,
+				8991A9262DCD5EAD393CD77B /* Info.plist */,
+				C38279FE7C1596A1373B4DE5 /* NotePadWidget.swift */,
+				A2ABB4C8A161921107CA6CD1 /* WidgetPad.swift */,
+			);
+			path = HelloWidget;
+			sourceTree = "<group>";
+		};
+		9250D88B6FCAEF5FCBDB2A94 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AA619BDA05729212391008AA /* CormorantGaramond-Italic-VF.ttf */,
+				20DA230340821468AF431E20 /* CormorantGaramond-OFL.txt */,
+				82E74D8A7F9CAC24C881B251 /* CormorantGaramond-VF.ttf */,
+				FFC4D99F180C2EB9EA5AA161 /* EBGaramond-Italic-VF.ttf */,
+				5815B233A17375935D914FC9 /* EBGaramond-OFL.txt */,
+				88FB910079EA70DEA042A913 /* EBGaramond-VF.ttf */,
+				21838454A3111F4C8B80F537 /* Poppins-Medium.ttf */,
+				D1CD555AF519ACC61A203121 /* Poppins-OFL.txt */,
+				B263B9BBC6A97A93F527C9EC /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9BEA8BB1E6D42C4286D1328A /* Hello */ = {
+			isa = PBXGroup;
+			children = (
+				41239D63621309891A7501FD /* Assets.xcassets */,
+				55B6EC14B01CFA9B57C11F39 /* CalendarOverview.swift */,
+				43A1C25FBFA15E258C0E3A45 /* Hello.entitlements */,
+				87AA15B19CA0A04AD709B993 /* HelloApp.swift */,
+				9C2B51249DCDC9A21EAB4C21 /* NoteDecorations.swift */,
+				558F22ACD8521429B24E2E86 /* RingWire.swift */,
+				1FEE8C1097ED5EB163119191 /* StickerDrawer.swift */,
+				6EB233BD64FD95BE930BF31C /* StickyNotes.swift */,
+				9AB8FC2BAB053C1E6A046EE6 /* Theme.swift */,
+				9250D88B6FCAEF5FCBDB2A94 /* Fonts */,
+			);
+			path = Hello;
+			sourceTree = "<group>";
+		};
+		D98EF30BC03FEB1A688BF1AE /* HelloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A40966486668B29121BF8809 /* DayNavigationUITests.swift */,
+				BD4F1F9775A8B59D4678DBDD /* EditStickerUITests.swift */,
+			);
+			path = HelloUITests;
+			sourceTree = "<group>";
+		};
+		F50BB2CF65ACD2EEE80E3928 = {
+			isa = PBXGroup;
+			children = (
+				9BEA8BB1E6D42C4286D1328A /* Hello */,
+				D98EF30BC03FEB1A688BF1AE /* HelloUITests */,
+				5B353727D40CBF45A7B0E86B /* HelloWidget */,
+				54E4A5E3A9B8B96990A930B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014531D5B43234D0A4FC8754 /* Hello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C39EA5517935FCC61950688 /* Build configuration list for PBXNativeTarget "Hello" */;
+			buildPhases = (
+				6B6152A0B437A07C189BBA06 /* Sources */,
+				2BA5DFAB35424F68C2658062 /* Resources */,
+				B27A13A6318844075492A8B4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84A348EDF75B03075A5C01F /* PBXTargetDependency */,
+			);
+			name = Hello;
+			packageProductDependencies = (
+			);
+			productName = Hello;
+			productReference = 4622D531BA288820EC5C7794 /* Hello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0808C4CD8443E376AB17F2C8 /* HelloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9555A3DCAC4DC580BA475B05 /* Build configuration list for PBXNativeTarget "HelloUITests" */;
+			buildPhases = (
+				32310E11276B2BDF05738839 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F195641CC5E7E5DFF655631 /* PBXTargetDependency */,
+			);
+			name = HelloUITests;
+			packageProductDependencies = (
+			);
+			productName = HelloUITests;
+			productReference = B42178CE70DD4308FB7F2169 /* HelloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		56ECC41A1C307BF419936DBF /* HelloWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291AD30B8E1ACD484E3CE470 /* Build configuration list for PBXNativeTarget "HelloWidget" */;
+			buildPhases = (
+				A2DD21A8ED94489978E4F221 /* Sources */,
+				12A090663D548E7820F02399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWidget;
+			packageProductDependencies = (
+			);
+			productName = HelloWidget;
+			productReference = B9CE7055300D9CDD7247F149 /* HelloWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		240B98E3BF6651EC4F9131A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					014531D5B43234D0A4FC8754 = {
+						DevelopmentTeam = VK5TUTFVRS;
+					};
+					0808C4CD8443E376AB17F2C8 = {
+						DevelopmentTeam = VK5TUTFVRS;
+						TestTargetID = 014531D5B43234D0A4FC8754;
+					};
+					56ECC41A1C307BF419936DBF = {
+						DevelopmentTeam = VK5TUTFVRS;
+					};
+				};
+			};
+			buildConfigurationList = 34CEF494A9283D11F1628B54 /* Build configuration list for PBXProject "Hello" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F50BB2CF65ACD2EEE80E3928;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 54E4A5E3A9B8B96990A930B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014531D5B43234D0A4FC8754 /* Hello */,
+				56ECC41A1C307BF419936DBF /* HelloWidget */,
+				0808C4CD8443E376AB17F2C8 /* HelloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A090663D548E7820F02399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A57BF3E9D86DCEBCF6D255 /* Assets.xcassets in Resources */,
+				DAE69413A3B4A6871770F7CA /* CormorantGaramond-Italic-VF.ttf in Resources */,
+				BFD71117A5EC3959B22BE173 /* CormorantGaramond-OFL.txt in Resources */,
+				185C3D1BB06CBDECC0DAA6BE /* CormorantGaramond-VF.ttf in Resources */,
+				87681B12E0E17D5A68B5DA96 /* EBGaramond-Italic-VF.ttf in Resources */,
+				DBFADD064A1815AB9EBA415C /* EBGaramond-OFL.txt in Resources */,
+				F815CF587221AC0F3224B2BE /* EBGaramond-VF.ttf in Resources */,
+				2635355BB88BA6DFFB72FDC2 /* Poppins-Medium.ttf in Resources */,
+				7E517345B64394401B7191A7 /* Poppins-OFL.txt in Resources */,
+				B1D1083F780DDE521C8ECF93 /* Poppins-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA5DFAB35424F68C2658062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99377DE04B1916939565929E /* Assets.xcassets in Resources */,
+				CA42B3CE3AC5A7016D317449 /* CormorantGaramond-Italic-VF.ttf in Resources */,
+				482398D9B1630614ED9BBBE1 /* CormorantGaramond-OFL.txt in Resources */,
+				5A95D7548339AFB3B1C23C0F /* CormorantGaramond-VF.ttf in Resources */,
+				F7816DE854B7E81F08E512DD /* EBGaramond-Italic-VF.ttf in Resources */,
+				5FC6439EDE1C8195A391CAC0 /* EBGaramond-OFL.txt in Resources */,
+				BA977129F15138DA2DE68625 /* EBGaramond-VF.ttf in Resources */,
+				1F38E3132FD93D403DF70860 /* Poppins-Medium.ttf in Resources */,
+				204981970FD34E0363EEA73A /* Poppins-OFL.txt in Resources */,
+				CF345B5E21EB903EF3F3544B /* Poppins-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32310E11276B2BDF05738839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00972F5B8C63A7D2FCCAAAF6 /* DayNavigationUITests.swift in Sources */,
+				142A17FCCE13C65ACCF6EDDA /* EditStickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6152A0B437A07C189BBA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F3B2508CE47A102881BE79 /* CalendarOverview.swift in Sources */,
+				C5864093743CC0111C6CDD4A /* HelloApp.swift in Sources */,
+				2A7B609001065E3945C75A1B /* NoteDecorations.swift in Sources */,
+				273A8EDDE541C8AB1708F9C3 /* RingWire.swift in Sources */,
+				472EC26262F97268D8676C88 /* StickerDrawer.swift in Sources */,
+				0FA4FC2065240E3A0F6AC199 /* StickyNotes.swift in Sources */,
+				4DC141254DFD66D6C008D973 /* Theme.swift in Sources */,
+				2F53986E3C06E5DEE9BD251E /* WidgetPad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DD21A8ED94489978E4F221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E594399DB6EC5527C1B1A0D6 /* NoteDecorations.swift in Sources */,
+				94935FB1B96F89ABB735467B /* NotePadWidget.swift in Sources */,
+				0DE46C14BB10CD677491E2A2 /* Theme.swift in Sources */,
+				0B4EC0DA69CBC335F5297AF9 /* WidgetPad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F195641CC5E7E5DFF655631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 014531D5B43234D0A4FC8754 /* Hello */;
+			targetProxy = 9C30ADF2BD8B3F9F1E907398 /* PBXContainerItemProxy */;
+		};
+		A84A348EDF75B03075A5C01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56ECC41A1C307BF419936DBF /* HelloWidget */;
+			targetProxy = 8873336D4CB16FB3DB7CF58C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DE87B9B3D87805E8CEFC542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B953598EB6616966BBC68BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hello/Hello.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK5TUTFVRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nidhisingh.hello;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6D21A917FC16CEF9E4AC5F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HelloWidget/HelloWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK5TUTFVRS;
+				INFOPLIST_FILE = HelloWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nidhisingh.hello.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93212D2CABD1CDB68940E1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VK5TUTFVRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nidhisingh.hello.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hello;
+			};
+			name = Debug;
+		};
+		BC0017C96FCE22215C8ACC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hello/Hello.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK5TUTFVRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nidhisingh.hello;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CC39B43EC0353451257A4BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HelloWidget/HelloWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK5TUTFVRS;
+				INFOPLIST_FILE = HelloWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nidhisingh.hello.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E131111D100C8F55EB6FAED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F87E247A0F8692487AF0E5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VK5TUTFVRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nidhisingh.hello.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C39EA5517935FCC61950688 /* Build configuration list for PBXNativeTarget "Hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B953598EB6616966BBC68BC /* Debug */,
+				BC0017C96FCE22215C8ACC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		291AD30B8E1ACD484E3CE470 /* Build configuration list for PBXNativeTarget "HelloWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC39B43EC0353451257A4BEC /* Debug */,
+				6D21A917FC16CEF9E4AC5F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		34CEF494A9283D11F1628B54 /* Build configuration list for PBXProject "Hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE87B9B3D87805E8CEFC542 /* Debug */,
+				E131111D100C8F55EB6FAED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9555A3DCAC4DC580BA475B05 /* Build configuration list for PBXNativeTarget "HelloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93212D2CABD1CDB68940E1B2 /* Debug */,
+				F87E247A0F8692487AF0E5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 240B98E3BF6651EC4F9131A3 /* Project object */;
+}
